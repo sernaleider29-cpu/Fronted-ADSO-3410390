@@ -1,5 +1,5 @@
 # ADSO 3410390
-![My picture](/1/src/img/Mi%20imagen.jpg)
+![My picture](/1/Sitio/src/img/Mi%20imagen.jpg)
 ## Leider Serna
 ### Analisis y Desarrollo de Software
 **Centro de Porcesos Industriales y de Construccion**
