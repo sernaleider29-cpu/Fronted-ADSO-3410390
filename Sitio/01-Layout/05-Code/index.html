@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW | Modelos</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <main>
+        <!-- 01 - Navbar -->
+        <header id="navbar">
+            <img class="logo" src="img/logo.png" alt="BMW">
+            <nav class="options">
+                <a href="#inicio">Inicio</a>
+                <a href="#tecnologia">Tecnología</a>
+                <a href="#vehiculos">Vehículos</a>
+                <a href="#accesos">Accesos</a>
+            </nav>
+            <menu class="tools">
+                <a href="javascript:">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="10" cy="10" r="6" />
+                        <path d="M15 15l6 6" />
+                    </svg>
+                    Buscar
+                </a>
+                <a href="javascript:">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7" />
+                    </svg>
+                    Perfil
+                </a>
+            </menu>
+        </header>
+
+        <!-- 02 - Inicio (hero) -->
+        <section id="inicio" class="panel">
+            <h2>Sección Hero</h2>
+            <article class="card hero">
+                <img src="img/i7.jpg" alt="Nuevo BMW i7">
+                <div class="info">
+                    <h3>Nuevo BMW i7</h3>
+                    <p>El pináculo del lujo eléctrico y rendimiento insuperable.</p>
+                </div>
+                <a class="btn primary" href="javascript:">Ver detalles</a>
+            </article>
+        </section>
+
+        <!-- 03 - Tecnología (destacado de innovación) -->
+        <section id="tecnologia" class="panel">
+            <h2>Destacado de innovación y tecnología</h2>
+            <article class="card tech">
+                <img src="img/interior.jpg" alt="Interior con BMW Operating System 8.5">
+                <div class="info">
+                    <h3>BMW Operating <span>System 8.5</span></h3>
+                    <p>Control por voz e interfaz táctil avanzada iDrive. Conectividad inteligente.</p>
+                </div>
+                <a class="btn primary" href="javascript:">Descubrir más</a>
+            </article>
+        </section>
+
+        <!-- 04 - Vehículos (filtro y explorador) -->
+        <section id="vehiculos" class="panel">
+            <h2>Filtro y explorador de vehículos</h2>
+            <div class="vehicles">
+                <div class="vehicle-item">
+                    <span>Eléctricos</span>
+                    <article class="card vehicle selected">
+                        <img src="img/i4.jpg" alt="BMW i4">
+                        <div class="info">
+                            <h3>BMW i4</h3>
+                            <p>100% Eléctrico</p>
+                        </div>
+                        <a class="btn primary" href="javascript:">Ver modelo</a>
+                    </article>
+                </div>
+                <div class="vehicle-item">
+                    <span>Híbridos</span>
+                    <article class="card vehicle">
+                        <img src="img/i6.jpg" alt="BMW i6">
+                        <div class="info">
+                            <h3>BMW i6</h3>
+                            <p>Híbrido Enchufable</p>
+                        </div>
+                        <a class="btn outline" href="javascript:">Ver modelo</a>
+                    </article>
+                </div>
+                <div class="vehicle-item">
+                    <span>Deportivos</span>
+                    <article class="card vehicle">
+                        <img src="img/i8.jpg" alt="BMW i8">
+                        <div class="info">
+                            <h3>BMW i8</h3>
+                            <p>Alto Rendimiento</p>
+                        </div>
+                        <a class="btn outline" href="javascript:">Ver modelo</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 05 - Accesos (accesos rápidos) -->
+        <section id="accesos" class="panel">
+            <h2>Accesos rápidos</h2>
+            <div class="quick">
+                <article class="card access">
+                    <div class="icon blue">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M6 8h12M6 12h12M6 16h12" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <h3>Configurador</h3>
+                        <p>Diseña tu vehículo personalizado online.</p>
+                    </div>
+                    <a class="btn primary" href="javascript:">Configurar</a>
+                </article>
+                <article class="card access">
+                    <div class="icon dark">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 20s-7-4.5-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.5-7 10-7 10z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <h3>Mi Garage</h3>
+                        <p>Accede a tus modelos y guardados favoritos.</p>
+                    </div>
+                    <a class="btn white" href="javascript:">Ver favoritos</a>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
