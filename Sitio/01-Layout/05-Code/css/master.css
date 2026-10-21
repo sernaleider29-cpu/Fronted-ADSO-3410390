@@ -17,7 +17,7 @@
 body {
     background-attachment: fixed;
     background-color: var(--color-vibrantpurple);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)), url("../img/fondo.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)), url("../img/background.jpg");
     background-position: center;
     background-size: cover;
     color: var(--color-accentdark);
